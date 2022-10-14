@@ -1,8 +1,8 @@
 # 20-news-dataset
 
 ## About
-This project is mainly focused on 
-- Reading raw data from folders.
+This project is mainly focused on:
+- Reading raw data from folders [comp.graphics, rec.motorcycles, talk.politics.guns].
 - Pre-process data:
   - Remove numbers. ✅
   - Convert word into lowercase word. ✅
@@ -45,6 +45,8 @@ This project is mainly focused on
 │          ├── ...
 │       └── talk.politics.guns
 │           ├── ...
+├── training_df.csv
+├── testing_df.csv
 ├── README.md
 └── .gitignore
 ```
